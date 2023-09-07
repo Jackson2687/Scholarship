@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1px;
+}
+html body {
+  width: 1020px;
+  font-size: 16px;
+}
+html body aside {
+  width: 20%;
+  background-color: #24306e;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html body aside .logo-pix {
+  padding: 40px 0;
+  width: 111px;
+  margin-right: 17px;
+}
+html body aside .aside-lists {
+  line-height: 40px;
+}
+html body aside .aside-texts {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  position: relative;
+  bottom: 4px;
+}
+html body main {
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+html body main .main-box header {
+  width: 100%;
+  height: 80px;
+}
+html body main .main-box header .head-areas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+html body main .main-box header .head-areas .gretting {
+  color: #24306e;
+  width: 30%;
+  height: 29px;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 23px;
+  padding-left: 20px;
+  margin-left: 90px;
+}
+html body main .main-box header .head-areas .heads {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  margin-right: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px grey;
+  background-color: white;
+  padding: 5px;
+}
+html body main .main-box header .head-areas .heads .inputs {
+  background-color: #cdd0da;
+  width: 216px;
+  padding-left: 20px;
+  margin-left: 10px;
+  border-radius: 9px;
+  flex-shrink: 0;
+}
+html body main .main-box .boxes {
+  width: 100%;
+  height: 500px;
+  padding: 20px 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+html body main .main-box .boxes form {
+  border: 1px solid red;
+  width: 50%;
+}
+html body main .main-box .boxes form .Method {
+  color: #24306E;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+html body main .main-box .boxes form .vector {
+  margin-left: 60px;
+}
+html body main .main-box .boxes form .payment-details {
+  padding: 20px;
+}
+html body main .main-box .boxes form .payment-details input {
+  width: 100%;
+  display: block;
+  border: 0;
+  border-bottom: 2px solid black;
+  margin: 40px 0;
+}
+html body main .main-box .boxes form .payment-details .stub-input {
+  width: 40%;
+  display: inline;
+  margin: 0 0 30px;
+}
+html body main .main-box .boxes .Access-scholarships {
+  width: 50%;
+  border-radius: 20px;
+  background: #E2EBEB;
+}
+html body main .main-box .boxes .Access-scholarships .text-one {
+  color: #24306E;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  margin-top: 29px;
+}
+html body main .main-box .boxes .Access-scholarships .text-two {
+  color: #24306E;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+html body main .main-box .boxes .Access-scholarships .img-pic {
+  width: 94%;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 13px;
+}/*# sourceMappingURL=searchforcriteria.css.map */

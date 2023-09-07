@@ -1,0 +1,235 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1px;
+
+    body {
+        width: 1020px;
+        font-size: 16px;
+
+
+
+
+
+
+        aside {
+            width: 20%;
+            background-color: #24306e;
+            height: 100%;
+            position: fixed;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .logo-pix {
+
+                // border: 1px solid red;
+                padding: 40px 0;
+                width: 111px;
+                margin-right: 17px;
+
+            }
+
+            .aside-lists {
+                line-height: 40px;
+
+            }
+
+            .aside-texts {
+                color: white;
+                text-decoration: none;
+                margin-left: 5px;
+                position: relative;
+                bottom: 4px;
+            }
+        }
+
+
+
+        main {
+            width: 80%;
+            height: 100%;
+            position: fixed;
+            right: 0;
+            // border: 2px solid red;
+
+            .main-box {
+                // border: 1px solid red;
+
+                header {
+                    // border: 1px solid yellow;
+                    width: 100%;
+                    height: 80px;
+
+                    .head-areas {
+                        // border: 1px solid green;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 30px 0;
+
+                        // .circle{
+                        //     border: 3px solid ;
+                        //     height: 30px;
+                        //     width: 30px;
+                        //     border-radius: 50%;
+                        // }
+
+
+                        .gretting {
+                            color: #24306e;
+                            width: 30%;
+                            height: 29px;
+                            font-family: "poppins";
+                            font-weight: bold;
+                            font-size: 23px;
+                            padding-left: 20px;
+                            margin-left: 90px;
+                        }
+
+                        .heads {
+                            border: 1px solid white;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 35%;
+                            margin-right: 40px;
+                            border-radius: 30px;
+                            box-shadow: 0 0 5px grey;
+                            background-color: white;
+                            padding: 5px;
+
+
+
+
+                            .inputs {
+                                background-color: #cdd0da;
+                                width: 216px;
+                                padding-left: 20px;
+                                margin-left: 10px;
+                                // color: #F4F7FE;
+                                border-radius: 9px;
+                                flex-shrink: 0;
+                            }
+                        }
+                    }
+                }
+
+                .boxes {
+                    // border: 1px solid black;
+                    width: 100%;
+                    height: 500px;
+                    padding: 20px 60px;
+                    margin-top: 10px;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: center;
+
+
+
+                    form {
+                        border: 1px solid red;
+                        width: 50%;
+
+                        .Method {
+                            color: #24306E;
+                            font-family: Poppins;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+
+                        // .pay-method{
+                        // }
+
+                        .vector {
+                            margin-left: 60px;
+                        }
+
+                        .payment-details {
+                            padding: 20px;
+
+                            input{
+                                width: 100%;
+                                display: block;
+                                border: 0;
+                                border-bottom: 2px solid black;
+                                margin: 40px 0;
+                            }
+
+                            .stub-input{
+                                width: 40%;
+                                display: inline;
+                                margin: 0 0 30px;
+                            }
+                            span{
+                                
+                                // .btnone{
+                                //     // width: 
+                                // }
+                            }
+                        }
+                    }
+
+                    .Access-scholarships {
+                        // border: 1px solid black;
+                        width: 50%;
+                        border-radius: 20px;
+                        background: #E2EBEB;
+
+
+                        .text-one {
+                            // border: 1px solid red;
+                            color: #24306E;
+                            text-align: center;
+                            font-family: "Poppins";
+                            font-size: 37px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            align-items: center;
+                            margin-top: 29px;
+                        }
+
+                        .text-two {
+                            color: #24306E;
+                            font-family: Poppins;
+                            font-size: 29px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-align: center;
+                            // border: 1px solid red;
+
+                        }
+
+                        .img-pic {
+                            width: 94%;
+                            display: flex;
+                            margin-top: 10px;
+                            margin-left: 13px;
+                            // border: 1px solid ;
+
+                        }
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+}
